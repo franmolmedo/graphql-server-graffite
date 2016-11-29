@@ -1,0 +1,28 @@
+{
+  "name": "graphqltest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "folmedo <folmedo@plainconcepts.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "babel-node ./server/server.js",
+    "seed": "babel-node ./domain/seed/seed.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-node5": "^11.1.0",
+    "eslint": "^3.10.2",
+    "eslint-plugin-node": "^3.0.4",
+    "eslint-plugin-smells": "^1.0.1"
+  },
+  "dependencies": {
+    "@risingstack/graffiti": "^3.2.0",
+    "@risingstack/graffiti-mongoose": "^5.3.0",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "faker": "^3.1.0",
+    "graphql": "0.7.0",
+    "mongoose": "^4.6.8",
+    "mongoose-seeder": "^1.2.1"
+  }
+}
